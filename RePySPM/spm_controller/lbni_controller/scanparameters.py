@@ -151,7 +151,7 @@ class ScanParameters:
         control = "Scan Parameters"
         command = f"{OHCcommands.r_sca}{control}"
         
-        return self.controller.read_control(command, control)[7]
+        return self.controller.read_control(command, control)[8]
 
     def set_scan_speed(self, value):
         """Sets the scan speed."""

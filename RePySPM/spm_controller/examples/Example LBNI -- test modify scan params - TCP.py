@@ -19,7 +19,7 @@ def main():
     afm.scan_parameters.set_width(2.52e-6)
     afm.scan_parameters.set_offset_x(10.52e-6)
     afm.scan_parameters.set_offset_y(12e-6)
-    afm.scan_parameters.set_scan_speed(1)
+    afm.scan_parameters.set_scan_speed(3.5)
     
     print("\n--- Scan Parameters set ---")
     
